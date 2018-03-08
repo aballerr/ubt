@@ -1,0 +1,76 @@
+
+.row-item {
+  width: 24%;
+}
+
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: 14px;
+  letter-spacing: 2px;
+  height: 250px;
+  background-color: #f1f1f1;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.vertical-line {
+  width: 2px;
+  height: 210px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  background-color: gray;
+}
+
+#apple-blue {
+  color: rgb(90, 200, 250);
+}
+
+.footer-link {
+  color:#79e7f0;
+  text-decoration: underline;
+}
+
+.fa-clock, .fa-phone, .fa-address-book, .fa-envelope {
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.fa-phone {
+  color: rgb(76,217,100);
+}
+
+.fa-clock {
+  color: #a6a6a6;
+}
+
+.fa-address-book {
+  color: rgb(0, 122, 255)
+}
+
+
+.fa-facebook-square {
+  color: #3B5998;
+  font-size: 40px;
+}
+
+.fa-instagram {
+  font-size: 40px;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(90, 200, 250);
+  cursor: pointer;
+}

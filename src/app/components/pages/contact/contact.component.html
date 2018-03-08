@@ -1,0 +1,51 @@
+<div class="container">
+  <div class="content-container">
+    <div class="contact-container">
+      Contact Us
+    </div>
+    <div class="row">
+      <div class="map-container">
+        <h2>Find Us!</h2>
+
+        <agm-map [latitude]="lat" [longitude]="lng" [zoom]="15">
+          <agm-marker  (markerClick)="toggleActive(airport)" [latitude]="39.3311182" [longitude]="-77.3526541"   [visible]="true">Urbana Tanning</agm-marker>
+        </agm-map>
+        <h2 class="message">Send Us A Message!</h2>
+        <div class="form">
+          <div class="input-container">
+            <label for="">Name</label>
+            <input type="text" name="" value="">
+          </div>
+          <div class="input-container">
+            <label for="">Email</label>
+            <input type="text" name="" value="">
+          </div>
+          <div class="input-container">
+            <label for="">Subject</label>
+            <input type="text" name="" value="">
+          </div>
+          <div class="input-container">
+            <label for="">Message</label>
+            <input type="text" name="" value="">
+          </div>
+          <div class="input-container">
+            <button class="submit" type="submit" name="">Send Message</button>
+          </div>
+        </div>
+      </div>
+      <div class="hours">
+        <h3>Contact Information</h3>
+        <div class="gray-line"></div>
+        <p ><i class="far fa-clock"></i>BUSINESS HOURS:<br> Monday-Saturday: 9am-9pm<br> Sunday: 10:00am-6:00pm</p>
+        <h5 class="info-content"></h5>
+        <h5 class="info-content"></h5>
+        <p ><i class="far fa-address-book"></i>Address: 3531 John Simmons St. Suite D09 Urbana, MD 21704(Next to Chopstix)</p>
+        <p ><i class="fas fa-phone"></i>Phone: 301-810-5259</p>
+        <p><i  class="fas fa-envelope"></i>Email: <span class="footer-link">contact@UrbanaTanning.com</span></p>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>
